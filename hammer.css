@@ -1,0 +1,98 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+  }
+  
+  /* Game Container */
+  .game-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Title Styling */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Meter Styling */
+  .meter {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 40px auto;
+  }
+  
+  .meter-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .hammer-img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2; /* Ensure it's above the background elements */
+  }
+  
+  
+  .needle {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    width: 4px;
+    height: 50%;
+    background: red;
+    transform-origin: bottom center;
+    transform: rotate(0deg);
+    z-index: 1; /* Ensure needle is above the meter image */
+  }
+  
+  /* Hammer Styling */
+  .hammer-container {
+    margin: 20px auto;
+  }
+  
+  
+  /* Controls Section */
+  .controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Scoreboard Styling */
+  .scoreboard {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  #winner {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #28a745;
+  }
+  
+  
